@@ -110,6 +110,8 @@ ERROR_DEFINITION sErrorDef[] = {
 	{ ERROR_VALUE_MUST_BE_LT_F,						true,	"Value in '%s' must be <$f." },
 	{ ERROR_VALUE_MUST_BE_LT_10000,					true,	"Value in '%s' must be <$10000." },
 	{ ERROR_ILLEGAL_OPERAND_COMBINATION,			true,	"Illegal combination of operands '%s'" },
+    { ERROR_UNKNOWN_REGISTER,                       true,   "Unknown register in '%s'" },
+    { ERROR_VALUE_MUST_BE_LTE_FFFF,                  true,   "Value in '%s' must be <= 0xffff" },
     {-1, true, "Doh! Internal end-of-table marker, report the bug!"}
 };
 
